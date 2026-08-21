@@ -15,8 +15,6 @@ Pour commencer ton périple, et avant de coder, tu dois comprendre ce qu'est Jav
 
 Dans cette ressource, tu vas voir **ce qu'est JavaScript**, quelle est son histoire, et ce que tu peux faire avec.
 
-![image](images/introduction.png)
-
 ## Définition
 
 Tu sais que l'**HTML** définit **la structure** d'une page web.
@@ -125,7 +123,7 @@ Mais, comment JavaScript est transformé en **langage machine** ?
 Ton navigateur a le pouvoir de traduire ton code JS en langage machine avec ce qu'on appelle un **Moteur JavaScript (JS Engine)**.
 Ce moteur (par exemple le moteur **V8** dans Google Chrome) va "lire" notre JS et le traduire, ce qui fait que notre ordinateur va le comprendre.
 
-![JavaScript Engine Schema](images/js-engine.png)
+![Les étapes de JavaScript à C++/C puis Assembly Language et enfin Machine code](images/js-engine.png)
 image source : [https://medium.com/@zoebai_70369/javascript-engine-368037453a1c](https://medium.com/@zoebai_70369/javascript-engine-368037453a1c)
 
 ## Résumé
