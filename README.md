@@ -89,9 +89,15 @@ La manière la plus simple d'expliquer la syntaxe d'un langage de programmation 
 ![Hello, World!](images/hello-world.png)
 Le but ? Donner une idée de la structure et de la syntaxe du langage utilisé.
 
-```javascript
+{% capture my_js %}
 console.log("Hello, World!");
-```
+{% endcapture %}
+
+{% include playground.html
+  id="hello-world"
+  initial_js=my_js
+  default_tab="js"
+%}
 
 Tu as ici un "Hello, world!" en JS. Ça semble assez simple non ?
 Si tu es curieux et que tu souhaites voir d'autres programmes "Hello, world!", regarde cet article sur Wikipedia :
